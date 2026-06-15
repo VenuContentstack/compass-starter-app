@@ -63,7 +63,7 @@ const Hero: React.FC<HeroProps> = (props: HeroProps) => {
             id={id}
             className={`banner-container relative bg-cover bg-no-repeat my-25 h-[100vh] mt-0 ${className}`}
         >
-         <h1>TEST</h1>   <div className='absolute inset-0 overflow-hidden'>
+            <div className='absolute inset-0 overflow-hidden'>
                 {!bannerImage?.[0]?.image?.url && bannerVideo?.video?.url 
                     ? <Video
                         {...bannerVideo}
